@@ -79,8 +79,8 @@ body {
 }
 
 .content p {
+  display: flex;
   min-width: 320px;
-  max-width: 800px;
   padding: 0px 20px 20px 20px ;
   font-weight: lighter;
   text-align: justify;
