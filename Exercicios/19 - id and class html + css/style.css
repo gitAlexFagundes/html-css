@@ -1,0 +1,54 @@
+@charset "UTF8";
+
+/* 
+HTML voce identifica uma tag usando "id", e em CSS USA "#"
+em HTML voce usa "class", e em CSS voce usa "." 
+
+O id deve sempre ser usado unicamente individualmente com nomes diferentes para cada, nao usar mesmo id/# mesmo que possivel.
+
+quando voce voce quiser usar elementos que vao compartilhar estilizacoes, usar o metodo class/.
+
+sempre de nome as identificacoes pela função, da forma mais resumida possivel.
+
+voce pode usar id e classe na mesma tag, mas o ID vai sempre sobrepor, ele é sempre prioridade, pior isso a ideia de sempre usa-lo primeiro.
+*/
+
+body {
+  background-color: rgb(169, 240, 216);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  color: rgb(15, 87, 63);
+}
+h1#principal {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  background-color: black;
+}
+
+h2 {
+  color: rgb(17, 148, 104);
+}
+
+p {
+  color: rgb(102, 102, 102);
+}
+
+.basic {
+  color: rgb(17, 148, 104);
+  font-weight: bolder;
+}
+.moderate {
+  color: rgb(148, 128, 17);
+  font-weight: bolder;
+}
+
+.advanced {
+  color: rgb(148, 17, 17);
+  font-weight: bolder;
+}
+
+.destaque {
+  background-color: rgba(250, 250, 54, 0.658);
+}

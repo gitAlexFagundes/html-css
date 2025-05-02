@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gradientes em CSS</title>
+  <style>
+    *{
+      height: 100%;
+    }
+/* esse temo abaixo e para criar um gradiente linear, o termo "to" se refere a direção do gradiente, podendo ser top,bottom,left, e right. Voce tambem pode determinar a direção em graus, usando o valor+deg (exemplo 45deg). na sequencia informe as cores na sequencia do gradiente*/ 
+/*voce tambem pode usar o radial-gradient para fazer um gradiente de outras formas, como circular*/
+    body {
+      background-image: linear-gradient(to bottom, #5FF2FF, #72CCD5 20%, #415355);
+      background-attachment: fixed; /* esse termo faz o conteudo do background ficar fixo, sem ser afetado pela rolagem da tela*/
+    }
+  </style>
+</head>
+<body>
+  <h1>Testando Gradiente</h1>
+</body>
+</html>

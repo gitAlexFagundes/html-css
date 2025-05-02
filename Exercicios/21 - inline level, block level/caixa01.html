@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modelos de caixas</title>
+  <style>
+    h1 {
+      background-color: cadetblue;
+
+      height: 300px;  /* altura da caixa */ /* esses paramentros nao funcionam em block, voce pode transformar um inline em block com comando "displa: inline ou block". voce pode transformar block em inline tambem, porem perde esses parametros */
+      width: 300px; /* largura da caixa */
+
+      border: 10px solid yellowgreen; /* aqui resumiu o tamanho da borda, o tipo da borda, e a cor da borda */
+      padding: 10px; /* 1 valor e para os 4 lados da caixa, 2 valores o primeiro e pra cima pra baixo, e os segundo pra direta e esquerda, 4 valores e 1 pra cada lado, a ordem sempre e no sentido horario */
+      margin: auto; /* o valor "auto" sempre foca em centalizar a box, voce pode centralizar somente a margem que quiser, sendo horizontalmente ou verticalmente*/
+      outline: 1px dashed darkred; /* aqui resumiu o tamanho da borda, o tipo da borda, e a cor da borda */
+
+    }
+
+    a {
+      border-width: 10px;
+      border-style: solid;
+      border-color: yellowgreen;
+
+      padding-top: 10px;
+      padding-right: 10px;
+      padding-bottom: 10px;
+      padding-left: 10px;
+
+    }
+  </style>
+</head>
+<body>
+  <h1>Exemplo de caixa box-level</h1>
+  <p>Paragrafos tambem sao exemplos de box-leves, mas os<a href=""> links sao exemplos de caixas inline-level.</a> Vamos ver como isso funciona na pratica!</p>
+</body>
+</html>

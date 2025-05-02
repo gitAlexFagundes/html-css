@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Midias em HTML5</title>
+</head>
+<body>
+  <h1>imagem dinamica</h1>
+  <p>Abra as imagens em dispositivos diferents, ou mude o tamanho do seu navegador.</p>
+
+  <picture>
+    <source media="(max-width: 750px)" srcset="imagens/foto_p.png" type="image/png">
+    <source media="(max-width: 1050px)" srcset="imagens/foto_m.png" type="image/png">
+    <img src="imagens/foto_g.png" alt="imagem flexivel">
+  </picture>
+
+  <!--esse metodo acima e um forma de adicionar uma imagem que o tamanho se adapte conforme o tamanho da pagina a ser mostrada, usando imagens na dimensao certa ja prontas na pasta do projeto-->
+
+  <!-- a ordem do source e imporante, se esta em cima ou embaixo no codigo, se nao pode nao funcionar-->
+  <!-- use uma quantidade de 50px acima do tamanho total da imagem, pra ficar uma margem melhor-->
+
+  <h1>Reproduzindo audio</h1>
+  <p>Vamos reproduzir um audio em HTML5</p>
+
+  <audio preload="metadata" autoplay controls loop> 
+    <source src="midia/THE LAST OF US Part II Ambient Music  Post Apocalyptic Rain (LoU 2 OST _ Soundtrack).mp3" type="audio/mpeg">
+    <source src="midia/THE LAST OF US Part II Ambient Music  Post Apocalyptic Rain (LoU 2 OST _ Soundtrack).mp3" type="audio/wav">
+    <source src="midia/THE LAST OF US Part II Ambient Music  Post Apocalyptic Rain (LoU 2 OST _ Soundtrack).mp3" type="audio/ogg">
+    <p>Caso não veja o controle de audio, provavelmente seu navegador não suporta esse metodo! <a href="midia/THE LAST OF US Part II Ambient Music  Post Apocalyptic Rain (LoU 2 OST _ Soundtrack).mp3">"Clique aqui para baixar o audio."</a></p>
+  </audio> <!-- essa forma serve para cada navegador se adaptar ao tipo de arquivo compativel-->
+
+  <!-- <audio src="midia/THE LAST OF US Part II Ambient Music  Post Apocalyptic Rain (LoU 2 OST _ Soundtrack).mp3" controls autoplay></audio> --> 
+  <!--a tag loop, volta a musica do inicio quando ela acabar -->
+  <!--o termo auto play dentro faz com que o audio seja reproduzido ao abrir o site-->
+  <!--a tag controls faz com que apareça um controle do audio, para dar play e pause-->]
+  <!-- formatos compativeis geralmente sao MP3, WAV E OGG-->
+</body>
+</html>

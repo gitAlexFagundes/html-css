@@ -1,0 +1,151 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+.intro {
+  padding-bottom: 10px;
+  padding-top: 20px;
+  color: white;
+  background-image: linear-gradient(to top, #90989a, #52abd5, #c1d3dc);
+  
+  
+}
+.intro h1 {
+  font-family: 'Carter One';
+  text-align: center;
+  padding-bottom: 10px;
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.456);
+}
+
+.subintro {
+  text-align: center;
+  margin: auto;
+  padding-bottom: 20px;
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.471);
+
+}
+
+.navoptions {
+  background-color: #90989a;
+  justify-content: center;
+  display: flex;
+  position: relative;
+  list-style: none;
+  box-shadow: 0px 10px 10px 1px rgba(0, 0, 0, 0.286)
+
+}
+
+.navoptions a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.navoptions li {
+  padding: 5px 15px;
+  margin: 0px 3px;
+  font-size: 16px;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  transition: border 0.2s ease;
+}
+
+.navoptions li:hover {
+  color: black;
+  background-color: #52abd5;
+  border-style: solid;
+}
+
+body {
+  background-color: #e2e7ea;
+}
+
+.content {
+  display: auto;
+  margin: 0% 10%;
+  padding-top: 20px;
+  border-radius: 0px 0px 15px 15px;
+  text-align: justify;
+  font-family: 'Comic Neue';
+  background-color: #ffffff;
+
+}
+
+.content p {
+  min-width: 320px;
+  max-width: 800px;
+  padding: 0px 20px 20px 20px ;
+  font-weight: lighter;
+  text-align: justify;
+  text-indent: 30px;
+
+}
+
+div.video {
+  margin-bottom: 20px;
+  padding-bottom: 50%;
+  position: relative;
+
+}
+
+div.video iframe {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+
+}
+
+.logos {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0px;
+
+}
+
+.logos  img {
+  max-width: 500px;
+
+}
+
+.e46gallery {
+  display: flex;
+  justify-content: center;
+  gap: 1px;
+  flex-wrap: wrap;
+
+}
+
+.e46gallery img {
+  max-width: 180px;
+  padding-bottom: 10px;
+}
+
+h1 { 
+  text-align: center;
+}
+
+h2 {
+  padding-bottom: 20px;
+  color: rgb(92, 103, 108);
+  font-family: 'Comic Neue';
+  font-weight: bolder;
+  font-size: xx-large;
+  text-align: center;
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.415);
+}
+
+footer {
+  font-family: 'Carter One';
+  margin-top: 20px;
+  background-color: #2F97C9;
+  text-align: center;
+}

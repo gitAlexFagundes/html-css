@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grouping Tags</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: lightskyblue;
+      margin: 0px;
+    }
+    header {
+      background-color: white;
+      padding: 10px;
+      margin: 10px;
+      border-radius: 5px;
+      box-shadow: 1px 1px 7px 1px rgba(0, 0, 0, 0.534);
+    }
+    main {
+      background-color: rgb(238, 231, 231);
+      padding: 10px;
+      margin: 10px;
+      border-radius: 5px;
+      box-shadow: 1px 1px 7px 1px rgba(0, 0, 0, 0.534);
+    }
+    nav {
+      background-color: rgb(128, 125, 125);
+      padding: 3px;
+      text-align: center;
+      box-shadow: 1px 1px 7px 1px rgba(0, 0, 0, 0.479); /* cria a sombra para a box  (margem horizontal, vertical, spreed e cor)*/
+    }
+    nav > a {
+      text-decoration: none;
+      color: rgb(243, 243, 243);
+      font-weight: bold;
+      margin-right: 30px;
+    }
+    nav > a:hover {
+      text-decoration: underline;
+      color: darkred;
+    }
+    article > aside{
+      background-color: rgb(206, 201, 201);
+      padding: 1px;
+      text-align: center;
+    }
+    footer {
+      background-color: black;
+      color: white;
+      text-align: center;
+      padding: 1px;
+      margin: 0px;
+    }
+    footer > p {
+      margin: 0px;
+    }
+    h2 {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+ <h1>Meu site</h1>
+ <nav>
+
+  <a href="#">link</a>
+  <a href="#">link</a>
+  <a href="#">link</a>
+  <a href="#">link</a>
+  <a href="#">link</a>
+
+ </nav>
+  </header>
+  <main>
+    <section id="assuntos">
+      
+    </section>
+    <section id="noticias">
+      <article>
+        <h2>Noticias sobre o Brasil.</h2>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, dicta necessitatibus nesciunt laborum debitis accusamus consequatur reiciendis tempora nemo velit eligendi repellendus facilis cupiditate, numquam iure quo, laboriosam eaque tenetur.
+        <aside>
+          <p>Artigo escrito por eu mesmo.</p>
+        </aside>
+      </article>
+
+    </section>
+
+  </main>
+
+  <footer>
+    <p>Desenvolvido pelo Alex.</p>
+  </footer>
+
+</body>
+</html>

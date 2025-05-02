@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!--voce tambem pode usar um seletor para mudar algo no conexto geral! segue um exemplo abaixo-->
+<!-- <style>
+    mark  {
+        background-color: limegreen;
+    }
+</style>
+  
+  com isso toda tag mark seria selecionada a seguir o padrao de estilo determinado pelo seletor-->
+
+  <title>formtação de textos</title>
+</head>
+<body>
+  <h1>Principais formatações</h1>
+  <h2>Netrito/destaque</h2>
+  <p>nessa frase temos um termo em <b>negrito</b> usando a tag b (bold).</p> <!-- voce mudou a forma mas nao cria destaque com b de bold-->
+  <p>nesta frase, vou destacar o termo <STRONG>STRONG</STRONG>.</p> <!--voce cria destaque com a tag strong-->
+
+  <h2> Italico/Enfase </h2>
+  <p>nesta frase temos um termo em <i>italico</i> usando a tag i.</p><!-- voce mudou a forma mas nao cria destaque com i de italico-->
+  <p>nesta frase, vou dar enfase no termo <em>em</em>.</p><!--  aqui alem da forma e mudado a semantica de enfase-->
+
+
+
+  <h2>Texto marcado</h2>
+  <p>podemos criar um texto marcado usando a tag <mark style="background-color: lime;">MARK</mark></p> <!-- MARK serve para marcar o texto, igual um marcador mesmo, a cor padrão e amarelo se descrito em HTML, o correto para alterar a cor e no CSS. o termo sytle busca o css pro html, isso nao e correto mas pode ser usado-->
+  <p><mark>vou marcar total esse texto</mark></p>
+  <h2>texto grande e pequena</h2>
+  <p> aqui vamos ter um <big>texto grande</big> e um <small>texto pequeno.</small></p> <!-- tag small e entendido como semantica, tipo letras miudas de um documento, mas big nao, pois so altera a estrutura e a forma, nao tem significado-->
+  <h2>texto deletado</h2>
+  <p>podemos marcar um texto como <del>excluido</del> para que ele deva ser lido mas nao considerado</p> <!-- a tag del mostra que aquele texto deve ser desconsiderado, pois ele fica riscado no contexto-->
+  <h2>texto inserido</h2>
+  <p>podemos marcar um texto como <ins>inserido</ins> para uma enfase e indicar que ele foi adicionado depois</p> <!-- a tag ins deixa o texto sublinhado, com a ideia de dermacar enfase ou que ele foi adicionado, diferente da tag U que somente muda a forma, mas nao tem semantica-->
+  <h2>texto sobrescrito</h2>
+  <p>para inserir coisas do tipo x<sup>20</sup>+3</p> <!-- a tag sup move o conexto para cima, como aquelas contas de ao quadrado.-->
+  <h2>texto subscrito</h2>
+  <p>para inserir coisas do tipo H<sub>2</sub>O</p> <!-- a tag sub move o contexto para baixo, como descrições de componentes quimicos do exemplo.-->
+
+  
+
+
+
+</body>
+</html>
