@@ -1,0 +1,142 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-image: linear-gradient(to right, #7E7DA8, #7A76DB);
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 95vh;
+  flex-direction: column;
+}
+
+.logo {
+  width: 300px;
+  height: 180px;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+}
+
+.container {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
+  padding: 20px;
+  width: 100%;
+  max-width: 500px;
+  min-width: 250px;
+  margin: 0 auto;
+  display: flex;
+  gap: 20px;
+}
+
+h1 {
+  font-size: 2.0rem;
+  margin-bottom: 20px;
+  text-align: center;
+} 
+
+.input-group {
+  font-family: 'Arial', sans-serif;
+  font-size: 1.0rem;
+  color: #4541b8;
+  margin-bottom: 15px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input-group input {
+  margin: auto;
+  width: 100%;
+  padding: 10px;
+  border: 0px solid #ccc;
+  color: #ffffff;
+  background-color: #8f8f8f;
+  border-radius: 5px;
+}
+
+.input-group input:focus {
+  border-color: #7A76DB;
+  outline: none;
+}
+
+button {
+  background-color: #7A76DB;
+  color: white;
+  margin-top: 5px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  font-weight: bolder;
+  font-size: 1.1rem;
+  letter-spacing: 2px;;
+
+}
+
+button:hover {
+  background-color: #7E7DA8;
+}
+
+.left-login {
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+
+.container p {
+  color: #6d6d6d;
+  margin-bottom: 5px;
+  font-size: 0.7rem;
+}
+
+.sign-up {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 0.8rem;
+}
+
+.register {
+  background-color: #7A76DB;
+  color: rgb(255, 255, 255);
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bolder;
+  font-size: 1.1rem;
+  letter-spacing: 2px;;
+}
+
+.support {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  cursor: pointer;
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  width:35px;
+  height: 35px;
+}
+
+.support:hover {
+  background-color:  #ffffff;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}

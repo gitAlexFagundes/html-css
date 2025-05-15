@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/460fec5db5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <img class="logo" id="logo" src="loadingpng.gif" alt="">
+
+  <div class="container">
+    <div class="left-login">
+      <h1>LOG IN</h1>
+      <p>Bem-vindo de volta! Faça login para continuar ou registre-se.</p>
+      <p>Se você esqueceu sua senha, <a href="forgot_password.php">clique aqui</a> para redefini-la.</p>
+
+      <section class="sign-up">
+        <p>Se você não tem uma conta</p>
+        <button class="register">REGISTRAR-SE</button>
+      </section>
+      
+    </div>
+    <form action="login.php" method="POST">
+      <div class="input-group">
+        <label for="e-mail">E-mail:</label>
+        <input type="text" id="username" name="username" required>
+      </div>
+      <div class="input-group">
+        <label for="password">Senha:</label>
+        <input type="password" id="password" name="password" required>
+      </div>
+      <button id="entrar" type="submit">ENTRAR</button>
+    </form>
+  </div>
+
+ <span class="support"><abbr title="Precisa de suporte?"><i class="fa-solid fa-message"></i></abbr></span>
+
+</body>
+</html>
